@@ -1,0 +1,9 @@
+<table *ngIf="etudiants"  class="table  table-striped t1">
+  <tr><th>NumeroEtudiant</th> <th>Prenom</th> <th>Nom</th> </tr>
+  <tr *ngFor=" let e of etudiants">
+    <td>{{e.numeroEtudiant}}</td>
+    <td>{{e.prenom}}</td>
+    <td>{{e.nom}}</td>
+
+  </tr>
+</table>
